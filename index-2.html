@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrições para Treinamento de Líderes</title>
+    <!-- Fontes do Google -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Estilos CSS -->
+    <style>
+        /* Reset de estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Estilos gerais */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ece9e6, #ffffff);
+            color: #333;
+        }
+        /* Container principal */
+        .container {
+            max-width: 700px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        /* Cabeçalho */
+        .header {
+            margin-bottom: 2rem;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        /* Ícone de status */
+        .status-icon {
+            font-size: 5rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+        /* Título principal */
+        h1 {
+            font-size: 2rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+        /* Caixa de aviso */
+        .notice-box {
+            background: #ffe5e5;
+            border-left: 5px solid #e74c3c;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .notice-box p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        /* Seção de detalhes */
+        .details {
+            margin-top: 2rem;
+        }
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+        .detail-item i {
+            font-size: 2rem;
+            color: #3498db;
+            margin-top: 5px;
+        }
+        .detail-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.2rem;
+            color: #333;
+        }
+        .detail-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+        /* Seção de endereço */
+        .address {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .address h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        .address p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+        /* Rodapé */
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #999;
+        }
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            .detail-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            .detail-item i {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho com logo -->
+        <div class="header">
+            <img src="https://drive.google.com/file/d/1etYb37d3rHgfdzxKsoAhL_Do1t_I84XV/view?usp=sharing" alt="Logo da Igreja Bola de Neve">
+        </div>
+        <!-- Conteúdo principal -->
+        <i class="fas fa-exclamation-triangle status-icon"></i>
+        <h1>Inscrições Online Encerradas</h1>
+
+        <div class="notice-box">
+            <p>As inscrições via formulário online para o <strong>Treinamento de Líderes 2025</strong> estão indisponíveis a partir de <strong>17/02/2025</strong>. Você poderá realizar a sua inscrição presencialmente na nossa igreja a partir de <strong>18/02/2025</strong> às <strong>19h30</strong>.</p>
+        </div>
+
+        <div class="details">
+            <div class="detail-item">
+                <i class="fas fa-calendar-check"></i>
+                <div>
+                    <h3>Inscrições Presenciais</h3>
+                    <p><strong>Data:</strong> A partir de 18/02/2025</p>
+                    <p><strong>Horário:</strong> Das 19h30 às 21h00</p>
+                </div>
+            </div>
+            <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h3>Local da Inscrição</h3>
+                    <p>Igreja Bola de Neve<br>
+                    Praça Vitor Rodrigues Martins, 388 - Jardim Paris, Maringá - PR, 87083-360</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de endereço -->
+        <div class="address">
+            <h3>Como Chegar</h3>
+            <p>Utilize o mapa abaixo para encontrar nosso endereço e traçar a melhor rota até a igreja.</p>
+            <!-- Opcional: Você pode inserir um mapa do Google Maps aqui -->
+            <iframe src="https://maps.app.goo.gl/sTk3Q7FBADGRz53q6" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            © 2025 Igreja Bola de Neve. Todos os direitos reservados.
+        </div>
+    </div>
+</body>
+</html>
